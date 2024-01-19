@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* background-color:#c2d6e9; */
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style: none;
+}
+.active ,a:active{
+    color: gold;
+}
+.nav-bg{
+    /* background-color: #00BCD4; */
+    
+}
+.nav-flex{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    padding: 0.7rem;
+    background-color: white;
+
+}
+.nav-right{
+    display: flex;
+    gap: 2rem;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+.nav-left{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.home-bg{
+    background-image: url('https://images.unsplash.com/photo-1610642372677-bcddb69f3531?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YWlybGluZXxlbnwwfHwwfHx8MA%3D%3D');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-card{
+   
+    width: 80%;
+    margin: 0 auto; 
+    background-color: #ffffffa7;
+    margin-top: 10%;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center;
+}
+.hero-card-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    height: 22vh;
+    
+}
+.label-card{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 1.1rem;
+}
+.card-container{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.hero-inp{
+    height: 2.1rem;
+    padding: 8px;
+    border: 2px solid rgb(159, 151, 151);
+    font-size: 1rem;
+    outline: none;
+    background-color: transparent;
+    border-radius: 3px;
+    width: 15rem;
+}
+::placeholder{
+    font-size: 1rem;
+
+}
+.hero-inp:focus{
+   border: 2px solid blue; 
+}
+.hero-card button{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    width: 7rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: blue;
+    border-color: transparent;
+    margin-bottom: -15px;
+}
+.hero-card button:hover{
+    background-color: rgba(59, 109, 248, 0.997);
+}
+.grid-bg{
+    margin: 5% 0;
+    
+}
+.flight-card{
+    background-color: white;
+    display: flex;
+    height: 20vh;
+    align-items: center;
+    justify-content: space-around;
+}
+.flight-grid-container{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    gap: 40px;
+}
+.flex{
+    flex: 1;
+    text-align: center;
+}
+.bold{
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.font-less{
+    font-size: 0.9rem;
+}
+.flex-gap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+.time-btm-border{
+    padding-bottom: 5px;
+   border-width: 50px;
+    border-bottom: 2px dotted orange;
+}
+.book-btn{
+    width: 40%;
+    /* text-align: center; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    padding: 4px;
+    font-size: 0.9rem;
+    border-radius: 4px;
+    color: white;
+    border-color: transparent;
+    background-color: blue;
+    cursor: pointer;
+}
+.flight-card:hover{
+    box-shadow: 2px 5px 2px grey ;
+}
+
+

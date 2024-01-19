@@ -1,0 +1,12 @@
+header{
+    background-color: rgb(69, 156, 162);
+    color: white;
+    padding: 0 1rem;
+    display: flex;
+    height: 8vh;
+    justify-content: space-between;
+    align-items: center;
+}
+#icon{
+    font-size: 2rem;
+}

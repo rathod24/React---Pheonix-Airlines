@@ -1,0 +1,57 @@
+.trip-type-card{
+    height: 92vh;
+    width: 100%;
+    max-width: 25rem;
+    margin: 0 auto;
+}
+.card-inside{
+    height: 92vh;
+    padding: 6rem 1rem 0;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+     
+
+    button{
+        background-color: rgb(24, 118, 200);
+        color: white;
+        font-size: 1.15rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border: none;
+        
+    }
+    
+}
+.radio-radio-gap{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.radio-label-gap{
+    display: flex;
+    gap: 10px;
+}
+input[type="text"],input[type="date"],button,input[type="tel"],input[type="email"]{
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2rem;
+    border:2px solid rgb(144, 142, 142);
+    border-radius: 4px;
+    outline: none;
+    
+    
+}
+input[type="text"]:focus,input[type="date"]:focus,button:focus{
+    outline: none;
+}
+.flight-details{
+    display: flex;
+    justify-content: space-between;
+    height: 6rem;
+    align-items: center;
+    border: 2px solid gainsboro;
+    padding: 0 1rem
+}
